@@ -1,12 +1,14 @@
-# Command Line 
-1. ```npm init -y```
-2. ```npm install webpack webpack-cli --save-dev```
-3. ```npm install --save-dev html-webpack-plugin```
-4. ```npm install --save-dev style-loader css-loader```
-5. ```npm install --save-dev webpack-dev-server```
-6. ```npm install -D babel-loader @babel/core @babel/preset-env webpack```
+# Command Line
+
+1. `npm init -y`
+2. `npm install webpack webpack-cli --save-dev`
+3. `npm install --save-dev html-webpack-plugin`
+4. `npm install --save-dev style-loader css-loader`
+5. `npm install --save-dev webpack-dev-server`
+6. `npm install -D babel-loader @babel/core @babel/preset-env webpack`
 
 # Package.json
+
 ```json
 "private": "true",
 "scripts": {
@@ -17,6 +19,7 @@
 ```
 
 # Webpack.config.js
+
 ```js
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
@@ -67,3 +70,17 @@ module.exports = {
 };
 ```
 
+# GIT
+
+Intialize git, make first commit and push to github.
+
+## Download script to push to dis to gh-pages
+
+`wget https://github.com/X1011/git-directory-deploy/raw/master/deploy.sh && chmod +x deploy.sh`
+
+`bash ./deploy.sh`
+
+## Links for more info
+
+-   https://gist.github.com/cobyism/4730490
+-   https://github.com/X1011/git-directory-deploy
